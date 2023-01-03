@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline:none;
+    list-style-type: none;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+@media(max-width:720px){
+    html{
+        font-size: 45%;
+    }
+}
+
+@media(max-width:470px){
+    html{
+        font-size:35%
+    }
+}
+
+@media(max-width:370px){
+    html{
+        font-size:25%
+    }
+}
+
+
+
+html, body{
+    overflow-x: hidden;
+}
+
+body{
+    background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+    font-size: 1rem;
+    font-family: sans-serif;
+
+}
+
+button{
+    border:0;
+    cursor: pointer;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+

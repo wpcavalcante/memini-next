@@ -1,0 +1,105 @@
+.taskContainer{
+    max-width: 100rem;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #3a86ff;
+    border-radius: 1.5rem;
+
+    .editText{
+        color:#fff;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 1.1rem;
+
+        button{
+            margin-left: 1rem;
+            background: transparent;
+        }
+    }
+    form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        input{
+            width: 90%;
+            height: 5rem;
+            background-color: #fff;
+            border: 1px solid #000;
+            border-radius: 1.5rem;
+            padding: 0.5rem 1rem;
+            color: #000;
+
+        }
+
+        button{
+            margin-left: 1rem;
+            width: 8%;
+            height: 4.5rem;
+            background-color: #2de93d;
+            border-radius: 1.5rem;
+        }
+    }
+
+    h1{
+        color: #FFF;
+        margin-top: 1.8rem;
+    
+    }
+}
+
+.taskList{
+    background-color: rgb(255, 255, 255);
+    margin: 2rem 0;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+
+    p{
+        cursor: pointer;
+        color: #4d4e4e;
+        font-size: 2.5rem;
+        line-height: 150%;
+    }
+
+    .taskButtons{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1rem;
+
+        div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            time{
+                font-size: 1.5rem;
+                color: #2de93d;
+                margin-left: 5px;
+                margin-right: 4rem;
+            }
+        }
+
+        button{
+            background: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            & + button{
+                margin-left: 1rem;
+            }
+
+            span{
+                cursor: pointer;
+                margin-left: 5px;
+                font-size: 1.5rem;
+                color: #000000;
+                transition: filter .2s ease;
+                &:hover{
+                    filter: brightness(0.7);
+                }
+            }
+        }
+    }
+}

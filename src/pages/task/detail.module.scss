@@ -1,0 +1,38 @@
+.container{
+    max-width: 100rem;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #3a86ff;
+    border-radius: 1.5rem;
+
+    p{
+        color: #F2f6fc;
+        font-size: 2.5rem;
+        line-height: 150%;
+    }
+
+    .detail{
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        div{
+            display: flex;
+            align-items: center;
+
+            span{
+                font-size: 1.5rem;
+                color:#FFF;
+                margin: 0 0.5rem;
+            }
+
+            time{
+                color: #2de93d;
+                margin-right: 1rem;
+                font-size: 1.5rem;
+            }
+        }
+    }
+}

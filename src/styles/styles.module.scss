@@ -1,0 +1,36 @@
+.contentContainer{
+    max-width: 112rem;
+    margin: 10rem auto;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    img{
+     
+        width:40rem;
+    }
+
+    .hero{
+        max-width: 70rem;
+
+        h1{
+            font-size: 2.5rem;
+            margin-top: 3rem;
+            text-align: center;
+        }
+
+        p{
+            margin-top: 3rem;
+            font-size: 2rem;
+            text-align: center;
+
+            span{
+                color: #3a86ff;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
