@@ -34,6 +34,10 @@ Memini é um todo app desenvolvido com React, NextJS e Typescript. Com a aplica�
 ### A tarefa "Estudar programação" é substituida por "Estudar React" quando editado
 ![Web 7](https://github.com/wpcavalcante/Assets/blob/main/mem7.png)
 
+### Ao clicar numa tarefa, o usuário é redirecionado pra uma página focada na tarefa específica 
+![Web 7](https://github.com/wpcavalcante/Assets/blob/main/mem8.png)
+
+
 
 
 
