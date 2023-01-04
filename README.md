@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Memini
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/wpcavalcante/memini-next/blob/main/license) 
 
-First, run the development server:
+# Sobre o projeto
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+https://memini-next.vercel.app/
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Memini é um todo app desenvolvido com React, NextJS e Typescript. Com a aplicação você pode cadastrar uma atividade, editar e excluir. As informações da atividade são guardadas em um banco de dados Firebase e as atividades são filtradas por usuário. A aplicação também utiliza o NextAuth para realizar o login via GitHub do usuário e sua autenticação.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Layout
 
-## Learn More
+### Home com descrição do app e instruções de como utilizá-lo
+![Web 1](https://github.com/wpcavalcante/Assets/blob/main/mem1.png)
 
-To learn more about Next.js, take a look at the following resources:
+### Header antes de logar com o GitHub. Nessa aplicação é necessário estar logado para poder cadastrar uma tarefa. Se um usuário não logado tentar acessar o menu de tarefas, ele será direcionado de volta a home.
+![Web 2](https://github.com/wpcavalcante/Assets/blob/main/mem2.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Header Logado
+![Web 3](https://github.com/wpcavalcante/Assets/blob/main/mem3.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Página de tarefas. Quando logado, o usuário pode cadastrar tarefas, editá-las e excluí-las da forma que quiser.
+![Web 4](https://github.com/wpcavalcante/Assets/blob/main/mem4.png)
 
-## Deploy on Vercel
+### Tarefas cadastradas. As tarefas tem id único e quando cadastradas são jogadas no bando de dados do Firebase, limitando os usuários a só poderem acessar suas próprias tarefas.
+![Web 5](https://github.com/wpcavalcante/Assets/blob/main/mem5.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Botão de editar tarefa ativado. O valor da tarefa e mandado por input permitindo o usuário editá-la a bel-prazer
+![Web 6](https://github.com/wpcavalcante/Assets/blob/main/mem6.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### A tarefa "Estudar programação" é substituida por "Estudar React" quando editado
+![Web 7](https://github.com/wpcavalcante/Assets/blob/main/mem7.png)
+
+
+
+
+# Tecnologias utilizadas
+
+
+- ReactJS
+- NextJS
+- NextAuth
+- Typescript
+- SASS
+- Firebase
+
+
+
+# Criador
+
+Willian Cavalcante
+
+https://www.linkedin.com/in/willian-cavalcante-b51482157/
